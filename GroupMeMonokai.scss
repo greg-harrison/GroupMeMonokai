@@ -1,0 +1,242 @@
+/* I really want this to be global! */
+//colors
+$color_pink_swan_approx: #bbb;
+$color_log_cabin_approx: #222;
+$concrete: #f2f2f2;
+$black: #000;
+$color_tundora_approx: #49483e;
+$white_20: rgba(255, 255, 255, 0.2);
+$color_thunder_approx: #392e2f;
+$color_turquoise_blue_approx: #66d9ef;
+$color_radical_red_approx: #f92672;
+$color_tree_poppy_approx: #fd971f;
+$white: white;
+$gray: grey;
+
+
+@-moz-document domain("app.groupme.com") {
+  .chat-messages, .message, .chat-header, .chat-sidebar, .chat-sidebar *, .chat-input, .mousetrap, .dropdown-menu, .dropdown-menu a, .form-horizontal, .form-actions, .device-notifications-toggle, .paste {
+    background-color: #222 !important;
+    color: #bbb !important;
+  }
+
+  .inline-downloader {
+    color: $color_pink_swan_approx !important
+  }
+  input {
+    color: $color_pink_swan_approx !important;
+  }
+  .timestamp {
+    background-color: $color_log_cabin_approx !important;
+    color: $concrete !important;
+  }
+  body {
+    background-color: $black !important;
+    color: $concrete !important;
+  }
+  button {
+    background-color: $color_thunder_approx !important;
+    color: $color_pink_swan_approx !important;
+    &:hover {
+      background-color: $color_tundora_approx !important;
+      color: $concrete !important;
+    }
+  }
+  .paste {
+    border-left: $white_20 solid !important;
+  }
+  .navbar-inner {
+    background-color: $color_thunder_approx !important;
+    color: $color_pink_swan_approx !important;
+  }
+  .navbar {
+    .burger-box {
+      border: none;
+    }
+    .nav ul.dropdown-menu li.divider {
+      height: 1px;
+    }
+  }
+  .nickname {
+    color: $color_radical_red_approx !important;
+  }
+  .chat-messages {
+    .timestamp {
+      border: none;
+    }
+    .message-content-layout .content-types .img-attachment {
+      background: none;
+      border: none;
+    }
+  }
+  .icon-smile {
+    color: $color_tree_poppy_approx;
+  }
+  .icon-camera {
+    color: $color_tree_poppy_approx;
+  }
+  .chat-input {
+    border-top: 1px solid $color_thunder_approx;
+  }
+  .chat-sidebar {
+    border-left: 1px solid $color_thunder_approx;
+    top: 61px;
+    .section {
+      border-bottom: 1px solid $color_thunder_approx;
+    }
+  }
+  #messageText {
+    border: 1px solid $color_turquoise_blue_approx;
+  }
+  .modal-header {
+    background-color: $color_thunder_approx;
+    border: none;
+  }
+  .modal-body {
+    background-color: $color_log_cabin_approx !important;
+  }
+  .modal-footer {
+    background-color: $color_thunder_approx;
+    border: none;
+  }
+  .galleryShow {
+    #nav-overlay {
+      background-color: $color_log_cabin_approx !important;
+    }
+    .picture-list .picture img {
+      height: 100px !important;
+      width: 100px !important;
+    }
+  }
+  #typing {
+    color: $color_turquoise_blue_approx;
+    border: none;
+    background-color: transparent;
+    padding-top: 5px;
+    text-align: center;
+    img {
+      display: none;
+    }
+  }
+  .pop-over {
+    background-color: $color_log_cabin_approx !important;
+  }
+  .calendar-event {
+    background-color: transparent !important;
+    .date-badge {
+      background-color: transparent !important;
+    }
+    .info-section {
+      background-color: transparent !important;
+      border-top: none;
+    }
+    &.event-attachment {
+      border: 1px solid $color_thunder_approx !important;
+      .calendar-footer {
+        background-color: $color_thunder_approx !important;
+      }
+    }
+    .header .title {
+      color: $color_pink_swan_approx !important;
+    }
+  }
+  .calendar-create {
+    input {
+      color: $black !important;
+    }
+    .form-footer {
+      border-top: none;
+      background-color: $color_thunder_approx !important;
+    }
+    .category-block > i {
+      color: $concrete !important;
+    }
+  }
+  .system .body {
+    background-color: $color_log_cabin_approx !important;
+    color: $concrete !important;
+  }
+  .burger-box:hover {
+    background-color: $color_tundora_approx !important;
+    color: $concrete !important;
+  }
+  .form-footer > .button:hover {
+    background-color: $color_thunder_approx !important;
+  }
+  .dropdown-menu a:hover {
+    background-color: $color_thunder_approx !important;
+    color: $color_pink_swan_approx !important;
+  }
+  .details .name {
+    color: $color_turquoise_blue_approx;
+  }
+  #chats .chat {
+    border: 1px solid $color_thunder_approx;
+  }
+  #tabbed-chats li {
+    &.ng-scope {
+      border: none;
+      a {
+        background-color: $color_thunder_approx;
+        &:hover {
+          background-color: $color_tundora_approx !important;
+        }
+      }
+    }
+    .missed-messages .all {
+      background-color: $color_log_cabin_approx !important;
+    }
+  }
+  .top-right a {
+    color: $white;
+    &:hover {
+      color: $white;
+    }
+  }
+  .modal .calendar .modal-header {
+    border: none;
+  }
+  .modal-content > .settings {
+    section {
+      background-color: $color_log_cabin_approx !important;
+      border: 1px solid $color_thunder_approx;
+      .avatar {
+        border: none;
+      }
+    }
+    ul {
+      background-color: $color_log_cabin_approx !important;
+      border: 1px solid $color_thunder_approx;
+      li {
+        border: none;
+      }
+    }
+    .share-url {
+      background-color: transparent;
+      border: none;
+    }
+  }
+  #notifications .notification {
+    background-color: $color_log_cabin_approx !important;
+    border: 1px solid $color_thunder_approx;
+    .message-content {
+      color: $concrete !important;
+    }
+  }
+  .brief .view-event .btn {
+    padding-right: 10px;
+  }
+  .toggle-btn .option:hover {
+    background-color: $color_tundora_approx;
+  }
+  .view-event .btn {
+    padding-right: 10px;
+    //Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+    border-radius: 3px;
+    text-decoration: none;
+  }
+  .calendar-nav > span.active {
+    color: $gray;
+    border-bottom: 1px solid $gray;
+  }
+}
