@@ -186,6 +186,21 @@
 
   .calendar-nav > span.active {
     color: grey;
-    border-bottom: 1px solid grey; } }
+    border-bottom: 1px solid grey; }
+
+  .chat-input div[contenteditable="true"], .chat-input .emoji-wysiwyg-editor {
+    padding: 9px 80px 9px 10px; }
+
+  .icon-smile {
+    padding-right: 0px !important; }
+
+  .icon-camera {
+    padding-right: 0px !important; }
+
+  .chat-input #attach-picture-link {
+    right: 27px; }
+
+  .chat-input .emoji-button {
+    right: 60px; } }
 
 /*# sourceMappingURL=GroupMeMonokai.css.map */
