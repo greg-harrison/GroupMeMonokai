@@ -227,7 +227,7 @@ $gray: grey;
     padding-right: 10px;
   }
   .toggle-btn .option:hover {
-    background-color: $color_tundora_approx;
+    background-color: $color_tundora_approx !important;
   }
   .view-event .btn {
     padding-right: 10px;
@@ -255,6 +255,9 @@ $gray: grey;
     right: 60px;
   }
   .nav>li>a:hover, .nav>li>a:focus {
-    background-color: $color_tundora_approx;
+    background-color: $color_tundora_approx !important;
+  }
+  .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+    background-color: $color_tundora_approx !important;
   }
 }

@@ -177,7 +177,7 @@
     padding-right: 10px; }
 
   .toggle-btn .option:hover {
-    background-color: #49483e; }
+    background-color: #49483e !important; }
 
   .view-event .btn {
     padding-right: 10px;
@@ -204,6 +204,9 @@
     right: 60px; }
 
   .nav > li > a:hover, .nav > li > a:focus {
-    background-color: #49483e; } }
+    background-color: #49483e !important; }
+
+  .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #49483e !important; } }
 
 /*# sourceMappingURL=GroupMeMonokai.css.map */
