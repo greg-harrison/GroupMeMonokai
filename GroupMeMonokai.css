@@ -201,6 +201,9 @@
     right: 29px; }
 
   .chat-input .emoji-button {
-    right: 60px; } }
+    right: 60px; }
+
+  .nav > li > a:hover, .nav > li > a:focus {
+    background-color: #49483e; } }
 
 /*# sourceMappingURL=GroupMeMonokai.css.map */
